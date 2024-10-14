@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="645cdc99-ba34-4794-ba7b-bb6d77afec95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Mathematics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter_One/HelloWindow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter_One/PlotPixel.py" afterDir="false" />
+    <list default="true" id="645cdc99-ba34-4794-ba7b-bb6d77afec95" name="Changes" comment="- Initial Commit">
+      <change afterPath="$PROJECT_DIR$/Chapter_One/AnimatedPlotPixel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JonyLucas"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JonyLucas/Pygame-Mathematics.git",
+    "accountId": "fdd70092-57df-4d36-98aa-e7c7cdadfc6a"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
 }]]></component>
@@ -42,7 +48,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.AnimatedPlotPixel.executor": "Run",
     "Python.HelloWindow.executor": "Run",
+    "Python.PlotPixel.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -58,7 +66,30 @@
       <recent name="C:\Users\Joao\PycharmProjects\Mathematics\Chapter_One" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PlotPixel">
+  <component name="RunManager" selected="Python.AnimatedPlotPixel">
+    <configuration name="AnimatedPlotPixel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Mathematics" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_One" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_One/AnimatedPlotPixel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="HelloWindow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Mathematics" />
       <option name="ENV_FILES" value="" />
@@ -107,6 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.AnimatedPlotPixel" />
         <item itemvalue="Python.PlotPixel" />
         <item itemvalue="Python.HelloWindow" />
       </list>
@@ -128,14 +160,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728918581658</updated>
-      <workItem from="1728918584488" duration="1857000" />
+      <workItem from="1728918584488" duration="4138000" />
     </task>
+    <task id="LOCAL-00001" summary="- Initial Commit">
+      <option name="closed" value="true" />
+      <created>1728922350927</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728922350927</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Initial Commit" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Mathematics$AnimatedPlotPixel.coverage" NAME="AnimatedPlotPixel Coverage Results" MODIFIED="1728924953709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_One" />
+    <SUITE FILE_PATH="coverage/Mathematics$PlotPixel.coverage" NAME="PlotPixel Coverage Results" MODIFIED="1728922175735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_One" />
     <SUITE FILE_PATH="coverage/Mathematics$HelloWindow.coverage" NAME="HelloWindow Coverage Results" MODIFIED="1728922017524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
