@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="645cdc99-ba34-4794-ba7b-bb6d77afec95" name="Changes" comment="- Text and fonts on pygame">
-      <change afterPath="$PROJECT_DIR$/Chapter_Two/DynamicPolygon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter_Two/Polygons.py" afterDir="false" />
+    <list default="true" id="645cdc99-ba34-4794-ba7b-bb6d77afec95" name="Changes" comment="- Polygons in pygames&#10;- Dynamic polygons drawing">
+      <change afterPath="$PROJECT_DIR$/Chapter_Two/ShowRaster.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +58,7 @@
     "Python.PygameLine.executor": "Run",
     "Python.PygameText.executor": "Run",
     "Python.RainbowPixel.executor": "Run",
+    "Python.ShowRaster.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -77,7 +77,7 @@
       <recent name="C:\Users\Joao\PycharmProjects\Mathematics\Chapter_One" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DynamicPolygon">
+  <component name="RunManager" selected="Python.ShowRaster">
     <configuration name="CustomFont" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Mathematics" />
       <option name="ENV_FILES" value="" />
@@ -93,29 +93,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_Two/CustomFont.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="DynamicLines" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Mathematics" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_Two" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_Two/DynamicLines.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,13 +170,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ShowRaster" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Mathematics" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_Two" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_Two/ShowRaster.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ShowRaster" />
         <item itemvalue="Python.DynamicPolygon" />
         <item itemvalue="Python.Polygons" />
         <item itemvalue="Python.CustomFont" />
         <item itemvalue="Python.PygameText" />
-        <item itemvalue="Python.DynamicLines" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +223,8 @@
       <workItem from="1737064446130" duration="192000" />
       <workItem from="1737066280353" duration="59000" />
       <workItem from="1737083383907" duration="897000" />
-      <workItem from="1737127087520" duration="5031000" />
+      <workItem from="1737127087520" duration="5686000" />
+      <workItem from="1737393999371" duration="456000" />
     </task>
     <task id="LOCAL-00001" summary="- Initial Commit">
       <option name="closed" value="true" />
@@ -257,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737129823624</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="- Polygons in pygames&#10;- Dynamic polygons drawing">
+      <option name="closed" value="true" />
+      <created>1737134794970</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737134794970</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,13 +288,15 @@
     <MESSAGE value="- Animated Blocks on Screen" />
     <MESSAGE value="- Colors in pygame&#10;- Line draw&#10;- Dynamic Line drawing" />
     <MESSAGE value="- Text and fonts on pygame" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Text and fonts on pygame" />
+    <MESSAGE value="- Polygons in pygames&#10;- Dynamic polygons drawing" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Polygons in pygames&#10;- Dynamic polygons drawing" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Mathematics$RainbowPixel.coverage" NAME="RainbowPixel Coverage Results" MODIFIED="1737127506942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
     <SUITE FILE_PATH="coverage/Mathematics$AnimatedPlotPixel.coverage" NAME="AnimatedPlotPixel Coverage Results" MODIFIED="1737064582687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_One" />
     <SUITE FILE_PATH="coverage/Mathematics$DynamicLines.coverage" NAME="DynamicLines Coverage Results" MODIFIED="1737127828058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
-    <SUITE FILE_PATH="coverage/Mathematics$DynamicPolygon.coverage" NAME="DynamicPolygon Coverage Results" MODIFIED="1737134574065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
+    <SUITE FILE_PATH="coverage/Mathematics$ShowRaster.coverage" NAME="ShowRaster Coverage Results" MODIFIED="1737394149109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
+    <SUITE FILE_PATH="coverage/Mathematics$DynamicPolygon.coverage" NAME="DynamicPolygon Coverage Results" MODIFIED="1737134768061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
     <SUITE FILE_PATH="coverage/Mathematics$PlotPixel.coverage" NAME="PlotPixel Coverage Results" MODIFIED="1728922175735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_One" />
     <SUITE FILE_PATH="coverage/Mathematics$PygameText.coverage" NAME="PygameText Coverage Results" MODIFIED="1737129028613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
     <SUITE FILE_PATH="coverage/Mathematics$CustomFont.coverage" NAME="CustomFont Coverage Results" MODIFIED="1737129154584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
