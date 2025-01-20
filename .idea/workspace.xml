@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="645cdc99-ba34-4794-ba7b-bb6d77afec95" name="Changes" comment="- Polygons in pygames&#10;- Dynamic polygons drawing">
-      <change afterPath="$PROJECT_DIR$/Chapter_Two/ShowRaster.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="645cdc99-ba34-4794-ba7b-bb6d77afec95" name="Changes" comment="- Raster Images">
+      <change beforePath="$PROJECT_DIR$/Chapter_One/AnimatedPlotPixel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01/AnimatedPlotPixel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter_One/HelloWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01/HelloWindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter_One/PlotPixel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01/PlotPixel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter_Two/CustomFont.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/CustomFont.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter_Two/DynamicLines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/DynamicLines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter_Two/DynamicPolygon.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/DynamicPolygon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter_Two/Polygons.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/Polygons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter_Two/PygameLine.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/PygameLine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter_Two/PygameText.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/PygameText.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter_Two/RainbowPixel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/RainbowPixel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter_Two/ShowRaster.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/ShowRaster.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +233,7 @@
       <workItem from="1737066280353" duration="59000" />
       <workItem from="1737083383907" duration="897000" />
       <workItem from="1737127087520" duration="5686000" />
-      <workItem from="1737393999371" duration="456000" />
+      <workItem from="1737393999371" duration="1316000" />
     </task>
     <task id="LOCAL-00001" summary="- Initial Commit">
       <option name="closed" value="true" />
@@ -266,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737134794970</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- Raster Images">
+      <option name="closed" value="true" />
+      <created>1737394655502</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737394655502</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,13 +306,14 @@
     <MESSAGE value="- Colors in pygame&#10;- Line draw&#10;- Dynamic Line drawing" />
     <MESSAGE value="- Text and fonts on pygame" />
     <MESSAGE value="- Polygons in pygames&#10;- Dynamic polygons drawing" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Polygons in pygames&#10;- Dynamic polygons drawing" />
+    <MESSAGE value="- Raster Images" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Raster Images" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Mathematics$RainbowPixel.coverage" NAME="RainbowPixel Coverage Results" MODIFIED="1737127506942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
     <SUITE FILE_PATH="coverage/Mathematics$AnimatedPlotPixel.coverage" NAME="AnimatedPlotPixel Coverage Results" MODIFIED="1737064582687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_One" />
     <SUITE FILE_PATH="coverage/Mathematics$DynamicLines.coverage" NAME="DynamicLines Coverage Results" MODIFIED="1737127828058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
-    <SUITE FILE_PATH="coverage/Mathematics$ShowRaster.coverage" NAME="ShowRaster Coverage Results" MODIFIED="1737394149109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
+    <SUITE FILE_PATH="coverage/Mathematics$ShowRaster.coverage" NAME="ShowRaster Coverage Results" MODIFIED="1737394610408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
     <SUITE FILE_PATH="coverage/Mathematics$DynamicPolygon.coverage" NAME="DynamicPolygon Coverage Results" MODIFIED="1737134768061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
     <SUITE FILE_PATH="coverage/Mathematics$PlotPixel.coverage" NAME="PlotPixel Coverage Results" MODIFIED="1728922175735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_One" />
     <SUITE FILE_PATH="coverage/Mathematics$PygameText.coverage" NAME="PygameText Coverage Results" MODIFIED="1737129028613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
