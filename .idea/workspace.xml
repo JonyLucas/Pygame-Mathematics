@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="645cdc99-ba34-4794-ba7b-bb6d77afec95" name="Changes" comment="- Raster Images">
-      <change beforePath="$PROJECT_DIR$/Chapter_One/AnimatedPlotPixel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01/AnimatedPlotPixel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_One/HelloWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01/HelloWindow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_One/PlotPixel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01/PlotPixel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_Two/CustomFont.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/CustomFont.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_Two/DynamicLines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/DynamicLines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_Two/DynamicPolygon.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/DynamicPolygon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_Two/Polygons.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/Polygons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_Two/PygameLine.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/PygameLine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_Two/PygameText.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/PygameText.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_Two/RainbowPixel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/RainbowPixel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_Two/ShowRaster.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02/ShowRaster.py" afterDir="false" />
+    <list default="true" id="645cdc99-ba34-4794-ba7b-bb6d77afec95" name="Changes" comment="- Directories rename">
+      <change afterPath="$PROJECT_DIR$/Chapter03/PlotLineNaive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter03/LinePlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/LinePlot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +54,8 @@
     "Python.DynamicLines.executor": "Run",
     "Python.DynamicPolygon.executor": "Run",
     "Python.HelloWindow.executor": "Run",
+    "Python.LinePlot.executor": "Run",
+    "Python.PlotLineNaive.executor": "Debug",
     "Python.PlotPixel.executor": "Run",
     "Python.Polygons.executor": "Run",
     "Python.PygameLine.executor": "Run",
@@ -86,30 +80,7 @@
       <recent name="C:\Users\Joao\PycharmProjects\Mathematics\Chapter_One" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ShowRaster">
-    <configuration name="CustomFont" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Mathematics" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_Two" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_Two/CustomFont.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.PlotLineNaive">
     <configuration name="DynamicPolygon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Mathematics" />
       <option name="ENV_FILES" value="" />
@@ -133,6 +104,52 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="LinePlot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Mathematics" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/LinePlot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PlotLineNaive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Mathematics" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/PlotLineNaive.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Polygons" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Mathematics" />
       <option name="ENV_FILES" value="" />
@@ -148,29 +165,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_Two/Polygons.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="PygameText" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Mathematics" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_Two" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_Two/PygameText.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PlotLineNaive" />
+        <item itemvalue="Python.LinePlot" />
         <item itemvalue="Python.ShowRaster" />
         <item itemvalue="Python.DynamicPolygon" />
         <item itemvalue="Python.Polygons" />
-        <item itemvalue="Python.CustomFont" />
-        <item itemvalue="Python.PygameText" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +227,8 @@
       <workItem from="1737066280353" duration="59000" />
       <workItem from="1737083383907" duration="897000" />
       <workItem from="1737127087520" duration="5686000" />
-      <workItem from="1737393999371" duration="1316000" />
+      <workItem from="1737393999371" duration="4540000" />
+      <workItem from="1737477655353" duration="4687000" />
     </task>
     <task id="LOCAL-00001" summary="- Initial Commit">
       <option name="closed" value="true" />
@@ -283,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737394655502</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="- Directories rename">
+      <option name="closed" value="true" />
+      <created>1737397126509</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737397126509</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,19 +310,33 @@
     <MESSAGE value="- Text and fonts on pygame" />
     <MESSAGE value="- Polygons in pygames&#10;- Dynamic polygons drawing" />
     <MESSAGE value="- Raster Images" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Raster Images" />
+    <MESSAGE value="- Directories rename" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Directories rename" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Chapter03/PlotLineNaive.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Mathematics$RainbowPixel.coverage" NAME="RainbowPixel Coverage Results" MODIFIED="1737127506942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
-    <SUITE FILE_PATH="coverage/Mathematics$AnimatedPlotPixel.coverage" NAME="AnimatedPlotPixel Coverage Results" MODIFIED="1737064582687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_One" />
     <SUITE FILE_PATH="coverage/Mathematics$DynamicLines.coverage" NAME="DynamicLines Coverage Results" MODIFIED="1737127828058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
-    <SUITE FILE_PATH="coverage/Mathematics$ShowRaster.coverage" NAME="ShowRaster Coverage Results" MODIFIED="1737394610408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
     <SUITE FILE_PATH="coverage/Mathematics$DynamicPolygon.coverage" NAME="DynamicPolygon Coverage Results" MODIFIED="1737134768061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
-    <SUITE FILE_PATH="coverage/Mathematics$PlotPixel.coverage" NAME="PlotPixel Coverage Results" MODIFIED="1728922175735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_One" />
     <SUITE FILE_PATH="coverage/Mathematics$PygameText.coverage" NAME="PygameText Coverage Results" MODIFIED="1737129028613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
     <SUITE FILE_PATH="coverage/Mathematics$CustomFont.coverage" NAME="CustomFont Coverage Results" MODIFIED="1737129154584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
-    <SUITE FILE_PATH="coverage/Mathematics$HelloWindow.coverage" NAME="HelloWindow Coverage Results" MODIFIED="1728922017524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Mathematics$Polygons.coverage" NAME="Polygons Coverage Results" MODIFIED="1737129961253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
+    <SUITE FILE_PATH="coverage/Mathematics$AnimatedPlotPixel.coverage" NAME="AnimatedPlotPixel Coverage Results" MODIFIED="1737064582687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_One" />
+    <SUITE FILE_PATH="coverage/Mathematics$ShowRaster.coverage" NAME="ShowRaster Coverage Results" MODIFIED="1737394610408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
+    <SUITE FILE_PATH="coverage/Mathematics$LinePlot.coverage" NAME="LinePlot Coverage Results" MODIFIED="1737477697505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
+    <SUITE FILE_PATH="coverage/Mathematics$PlotPixel.coverage" NAME="PlotPixel Coverage Results" MODIFIED="1728922175735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_One" />
+    <SUITE FILE_PATH="coverage/Mathematics$HelloWindow.coverage" NAME="HelloWindow Coverage Results" MODIFIED="1728922017524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Mathematics$PygameLine.coverage" NAME="PygameLine Coverage Results" MODIFIED="1737127768743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
+    <SUITE FILE_PATH="coverage/Mathematics$PlotLineNaive.coverage" NAME="PlotLineNaive Coverage Results" MODIFIED="1737496372518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
   </component>
 </project>
