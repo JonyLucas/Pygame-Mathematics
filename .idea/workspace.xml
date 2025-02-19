@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="645cdc99-ba34-4794-ba7b-bb6d77afec95" name="Changes" comment="- Directories rename">
-      <change afterPath="$PROJECT_DIR$/Chapter03/PlotLineNaive.py" afterDir="false" />
+    <list default="true" id="645cdc99-ba34-4794-ba7b-bb6d77afec95" name="Changes" comment="- Line plot&#10;- Bresenham Algorithm">
+      <change afterPath="$PROJECT_DIR$/Chapter03/BresenhamCircle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter03/NaiveCirclePlot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter03/LinePlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/LinePlot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +50,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.AnimatedPlotPixel.executor": "Run",
+    "Python.BresenhamCircle.executor": "Run",
     "Python.CustomFont.executor": "Run",
     "Python.DynamicLines.executor": "Run",
     "Python.DynamicPolygon.executor": "Run",
     "Python.HelloWindow.executor": "Run",
     "Python.LinePlot.executor": "Run",
+    "Python.NaiveCirclePlot.executor": "Run",
     "Python.PlotLineNaive.executor": "Debug",
     "Python.PlotPixel.executor": "Run",
     "Python.Polygons.executor": "Run",
@@ -80,8 +82,8 @@
       <recent name="C:\Users\Joao\PycharmProjects\Mathematics\Chapter_One" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PlotLineNaive">
-    <configuration name="DynamicPolygon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.BresenhamCircle">
+    <configuration name="BresenhamCircle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Mathematics" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,12 +92,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_Two" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_Two/DynamicPolygon.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/BresenhamCircle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BresenhamLinePlot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Mathematics" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Joao\PycharmProjects\Mathematics\Chapter03\BresenhamLinePlot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PlotLineNaive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="NaiveCirclePlot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Mathematics" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,30 +166,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/PlotLineNaive.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Polygons" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Mathematics" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_Two" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_Two/Polygons.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/NaiveCirclePlot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,19 +200,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PlotLineNaive" />
+        <item itemvalue="Python.BresenhamCircle" />
+        <item itemvalue="Python.NaiveCirclePlot" />
+        <item itemvalue="Python.BresenhamLinePlot" />
         <item itemvalue="Python.LinePlot" />
         <item itemvalue="Python.ShowRaster" />
-        <item itemvalue="Python.DynamicPolygon" />
-        <item itemvalue="Python.Polygons" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220" />
-        <option value="bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PY-243.24978.54" />
+        <option value="bundled-python-sdk-91e3b7efe1d4-466328ff949b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.24978.54" />
       </set>
     </attachedChunks>
   </component>
@@ -228,7 +230,9 @@
       <workItem from="1737083383907" duration="897000" />
       <workItem from="1737127087520" duration="5686000" />
       <workItem from="1737393999371" duration="4540000" />
-      <workItem from="1737477655353" duration="4687000" />
+      <workItem from="1737477655353" duration="5222000" />
+      <workItem from="1739987790661" duration="44000" />
+      <workItem from="1739987881152" duration="2593000" />
     </task>
     <task id="LOCAL-00001" summary="- Initial Commit">
       <option name="closed" value="true" />
@@ -286,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737397126509</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="- Line plot&#10;- Bresenham Algorithm">
+      <option name="closed" value="true" />
+      <created>1737497169318</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737497169318</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,18 +323,8 @@
     <MESSAGE value="- Polygons in pygames&#10;- Dynamic polygons drawing" />
     <MESSAGE value="- Raster Images" />
     <MESSAGE value="- Directories rename" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Directories rename" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Chapter03/PlotLineNaive.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="- Line plot&#10;- Bresenham Algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Line plot&#10;- Bresenham Algorithm" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Mathematics$RainbowPixel.coverage" NAME="RainbowPixel Coverage Results" MODIFIED="1737127506942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
@@ -332,9 +334,11 @@
     <SUITE FILE_PATH="coverage/Mathematics$CustomFont.coverage" NAME="CustomFont Coverage Results" MODIFIED="1737129154584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
     <SUITE FILE_PATH="coverage/Mathematics$Polygons.coverage" NAME="Polygons Coverage Results" MODIFIED="1737129961253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
     <SUITE FILE_PATH="coverage/Mathematics$AnimatedPlotPixel.coverage" NAME="AnimatedPlotPixel Coverage Results" MODIFIED="1737064582687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_One" />
+    <SUITE FILE_PATH="coverage/Mathematics$NaiveCirclePlot.coverage" NAME="NaiveCirclePlot Coverage Results" MODIFIED="1739988454178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
     <SUITE FILE_PATH="coverage/Mathematics$ShowRaster.coverage" NAME="ShowRaster Coverage Results" MODIFIED="1737394610408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
     <SUITE FILE_PATH="coverage/Mathematics$LinePlot.coverage" NAME="LinePlot Coverage Results" MODIFIED="1737477697505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
     <SUITE FILE_PATH="coverage/Mathematics$PlotPixel.coverage" NAME="PlotPixel Coverage Results" MODIFIED="1728922175735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_One" />
+    <SUITE FILE_PATH="coverage/Mathematics$BresenhamCircle.coverage" NAME="BresenhamCircle Coverage Results" MODIFIED="1740002145961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
     <SUITE FILE_PATH="coverage/Mathematics$HelloWindow.coverage" NAME="HelloWindow Coverage Results" MODIFIED="1728922017524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Mathematics$PygameLine.coverage" NAME="PygameLine Coverage Results" MODIFIED="1737127768743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter_Two" />
     <SUITE FILE_PATH="coverage/Mathematics$PlotLineNaive.coverage" NAME="PlotLineNaive Coverage Results" MODIFIED="1737496372518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
